@@ -5,7 +5,7 @@ import { exists } from "@std/fs";
 import { BlobReader, BlobWriter, ZipReader } from "@zip-js/zip-js";
 
 // The WebUI core version to download (Consider using this if not using nightly)
-export const WebUICoreVersion = "2.5.14";
+export const WebUICoreVersion = "2.5.0-beta.3";
 export const useNightly = false; // Set to false to use WebUICoreVersion
 
 // --- Cache Directory Logic ---
